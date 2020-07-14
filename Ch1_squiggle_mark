@@ -1,0 +1,14 @@
+//>To consider some custom computational marks
+//a squiggle is created in terms of radius, length, and the following actions
+
+//currentLength starts at 0
+//currentAngle starts at 0
+//points starts as an empty list
+//x starts at radius
+//y starts at 0
+//while currentLength is less than or equal to length:
+//  new X is set to radius x cos(currentAngle) 
+//  add the (newX, newY) to points list
+//  currentLength is set to be the length of a line through points list
+//  currentAngle is modified by a random value between -3 and 3
+//create a smooth line through the points list
