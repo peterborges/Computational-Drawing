@@ -1,0 +1,14 @@
+//https://happycoding.io/tutorials/processing/for-loops
+//Repeat a line a number of times
+void setup() {
+  size(300, 300);
+}
+
+void draw() {
+  background(100);
+  stroke(255);
+  
+  for (int lineX = 75; lineX <= 225; lineX += 75) {
+    line(lineX, 0, lineX, height);
+  }
+}
